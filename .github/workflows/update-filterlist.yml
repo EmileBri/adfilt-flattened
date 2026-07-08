@@ -1,0 +1,48 @@
+name: Update flattened filter list
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # diario 06:00 UTC
+  workflow_dispatch:        # disparo manual
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run merge script
+        run: python3 scripts/merge.py
+
+      - name: Fail if merge errors present
+        run: |
+          if grep -q "MERGE ERROR" AnnoyancesList_merged.txt; then
+            echo "::error::merge.py reported MERGE ERROR lines"
+            grep "MERGE ERROR" AnnoyancesList_merged.txt
+            exit 1
+          fi
+          if grep -q "^!#include" AnnoyancesList_merged.txt; then
+            echo "::error::unresolved !#include directives survived"
+            exit 1
+          fi
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add AnnoyancesList_merged.txt
+          if git diff --quiet --cached; then
+            echo "No changes, skipping commit."
+          else
+            git commit -m "chore: regenerate AnnoyancesList_merged.txt"
+            git push
+          fi
