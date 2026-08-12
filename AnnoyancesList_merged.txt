@@ -32997,7 +32997,7 @@ $csp=upgrade-insecure-requests,app=MyTuner.Windows.exe
 
 ﻿[Adblock Plus 3.13]
 ! Title: 🦁 Dandelion Sprout's African Languages List
-! Version: 08May2026v1-Alpha
+! Version: 11August2026v1-Alpha
 ! Expires: 4 days
 ! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
@@ -33009,7 +33009,7 @@ $csp=upgrade-insecure-requests,app=MyTuner.Windows.exe
 ! • AdGuard French Filter
 ! • Liste AR
 ! • EasyList Portuguese (https://easylist-downloads.adblockplus.org/easylistportuguese.txt)
-! • EasyDutch (https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch.txt)
+! • AdGuard Dutch
 
 ! ——— 🇲🇬 Malagasy ———
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145446
@@ -34718,7 +34718,7 @@ www.pixiv.net##div[data-ga4-label*=comment i]
 !------------------------------------------------------------
 
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 10August2026v2
+! Version: 11August2026v1
 ! Expires: 12 hours
 ! Description: In a world dominated by bitLy, adfLy, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary ?/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -38816,7 +38816,7 @@ $removeparam=sub,domain=allboner.com|twinkvideos.com
 !!! ||target.$removeparam=preselect - https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-11417832
 
 ! https://github.com/DandelionSprout/adfilt/pull/660
-$removeparam=ueid,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
+$removeparam=ueid,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com|theverge.com
 $removeparam=qo,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com|search.ask.com
 $removeparam=qsrc,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com|search.ask.com
 $doc,removeparam=o,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
