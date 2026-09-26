@@ -4,7 +4,7 @@
 !------------------------------------------------------------
 
 ! Title: ⚙️ Dandelion Sprout's Annoyances List
-! Version: 22August2026v1-Compilation
+! Version: 25September2026v1-Compilation
 ! Expires: 18 hours
 ! Description: This list is made in the style of Fanboy's and AdGuard's annoyances lists, to show that I can make a just as good such annoyances list as them. It combines many of my proudest and most frequently maintained international lists, as a proof-of-concept and as a curated list for simplicity's sake.
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
@@ -70,8 +70,11 @@
 ! ⌘ General annoyances on the sites in question.
 
 ! • Anti-"Aİ results in tech situations where Aİ was not asked for" List
-! ⌘ Aİ results above regular search results during regular-mode Google searches.
+! ⌘ Aİ results above regular search results during regular-mode Google and Bing searches.
 ! ⌘ Copilot Aİ stuff in Microsoft Word Online.
+
+! • Anti-"«Add as a preferred source on Google» widgets on non-Google sites" List
+! ⌘ All those "Add us as a Google Preferred Source" buttons in ≥2025. 
 
 ! • Annoyance List's main file
 ! ⌘ Certain sites' entry types that are of relevance to pretty no one.
@@ -34446,7 +34449,7 @@ de##.ardplayer-background
 
 ﻿[Adblock Plus 3.18]
 ! Title: 🍁 Anti-"Aİ results in tech situations where Aİ was not asked for" List
-! Version: 24April2026v1-Alpha
+! Version: 25September2026v1-Alpha
 ! Expires: 2 days
 ! Homepage: https://github.com/DandelionSprout/adfilt/tree/master
 ! Description: 1) I'm way too old for the Aİ bubble, and I'm not even 30 yet. 2) Google's pushing of Aİ in regular search results in particular have a very bad reputation for often being wrong about things. This list will however not block Aİ prompt sites.
@@ -34470,6 +34473,10 @@ www.google.*,ipv6.google.com##div[data-subtree^=ai] > div[data-wiz-uids] > div[c
 ! Image search with a pasted image (24/04/2026)
 www.google.*,ipv6.google.com##div#m-x-content div[jscontroller] > div[class]:only-of-type > div[class]:first-of-type:has(+ div[class][jsname]:last-of-type)
 
+! Bing's regular search results
+! https://www.bing.com/search?q=how+to+change+tyres&form=QBLH&ghc=1&lq=0 (25/09/2026)
+bing.*###b_results > .b_top[data-partnertag]
+
 ! Microsoft Word Online
 word-edit.officeapps.live.com,word.cloud.microsoft###TellMeWrapper_container
 word-edit.officeapps.live.com,word.cloud.microsoft##.BeforePageContent
@@ -34478,6 +34485,47 @@ word-edit.officeapps.live.com,word.cloud.microsoft##.BeforePageContent
 qwant.com##div[data-testid=containerWeb] div[class=""]:first-of-type:has(a[data-click-label^=Llm i])
 
 ! END: Anti-«AİinNonAİ» List.txt
+
+
+!------------------------------------------------------------
+! BEGIN: Anti«GooglePreferredSource»List.txt
+!------------------------------------------------------------
+
+[Adblock Plus 3.15]
+! Title: ⛵️ Anti-"«Add as a preferred source on Google» widgets on non-Google sites" List
+! Version: 25September2026v1-Alpha
+! Description: In late 2025, widgets to add various newssites to the user's Google account's Google News "Preferred Sources" list began showing up on those various newssites' articles. This list removes those widgets.
+! Homepage: https://github.com/DandelionSprout/adfilt
+
+! https://www•sfgate•com/national-parks/article/national-parks-change-prioritizes-trump-birthday-21219336.php (Early December 2025)
+sfgate.com##.br4.deep
+! https://bleedingcool•com/tv/60-minutes-pulled-trump-cecot-segment-airs-on-global-tv-in-canada/ (23/12/2025)
+/social_icons//google_preferred_source_$image,domain=~google.*|~google|~goog
+bleedingcool.com##.google-news-source
+! https://windowsreport•com/open-hlp-files-windows-10/ (27/12/2025)
+/google-preferred-source-badge-$image,domain=~google.*|~google|~goog
+~google.*,~google,~goog##.sidebar-google-badge:not(html,body)
+~google.*,~google,~goog##.follow-more-news__google-preferred:not(html,body)
+! https://www•makeuseof•com/install-dolby-atmos-in-windows/ (03/01/2026)
+~google.*,~google,~goog##.google-addus:not(html,body)
+! https://las-motorsport•com/f1/blog/top-10-worst-formula-one-tracks/17265/
+~google.*,~google,~goog##.motor-source-prefere:not(html,body)
+! https://movieweb•com/1993-super-mario-bros-live-action-4k-30th-anniversary-100/
+~google.*,~google,~goog##.article-add-google:not(html,body)
+! https://sportskhabri•com/10-worst-formula-one-tracks-of-all-time/
+~google.*,~google,~goog##.sk-page-single__share:not(html,body)
+! https://www•wionews•com/world/indian-americans-fellow-republicans-react-sharply-to-bo-french-s-post-targeting-foreigner-students-in-texas-1789369347097
+~google.*,~google,~goog##.googleTrustedContainer-mid:not(html,body)
+! https://www•srednja•hr/novosti/vijesti/87396/u-tramvaju-sutra-ne-morate-cvikati-kartu-najavili-jos-jednu-pogodnost-dio-grada-bit-ce-zatvoren/vijest (23/09/2026)
+~google.*,~google,~goog##.google-source:not(html,body)
+! https://sourceforge.net/projects/equalizerapo/files/1.4.2/ (17/09/2026)
+sourceforge.net###preferred-source-button
+! 25. sep. 2026 https://www.diskpart.com/password/how-to-get-your-local-computer-password-on-windows-11-0725.html
+diskpart.com##.theme-side
+! 25. sep. 2026 https://geekrewind.com/how-to-set-up-ssh-key-login-with-windows-11/
+~google.*,~google,~goog##.gr-google-follow##.google-addus:not(html,body)
+
+! END: Anti«GooglePreferredSource»List.txt
 
 !!! !#include Android%20Scum%20Class%20%E2%80%94%20Fake%20notification%20counters.txt
 
@@ -34799,7 +34847,7 @@ www.pixiv.net##.text-left.charcoal-clickable
 !------------------------------------------------------------
 
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 23September2026v1
+! Version: 25September2026v2
 ! Expires: 12 hours
 ! Description: In a world dominated by bitLy, adfLy, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary ?/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -36670,7 +36718,7 @@ $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.co
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-1726383
 $removeparam=offer_id,domain=catch.com.au|surfshark.com
 ! https://tenshoku•nikkei•co•jp/lp/15002/?n_cid=TPRN0002&waad=Ujim9yQ8&adid=NK_L2_T_shortlink_Sun_diagnosis&utm_source=NKdenshiban&utm_medium=content-text&utm_content=text&utm_campaign=shortlink_Sun_diagnosis (Can't be made generic due to: finnNO, willhabenAT, kijijiCA, https://github.com/DandelionSprout/adfilt/issues/601)
-$doc,removeparam=adid,domain=indeed.com|mcafee.com|nikkei.co.jp|tmz.com
+$doc,removeparam=adid,domain=indeed.com|mcafee.com|nikkei.co.jp|tmz.com|harborfreight.com
 
 !! ——— Rules for heavily covered sites ———
 !!! ——— Amazon ———
@@ -39144,7 +39192,8 @@ $removeparam=ymid
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5498306
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-17886709
-$removeparam=via,domain=datafa.st|sincode.ai|skillshare.com|thedailybeast.com|raycast.com
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18607681
+$doc,removeparam=via,domain=datafa.st|sincode.ai|skillshare.com|thedailybeast.com|raycast.com|matrix.to|matrix.org
 
 ! https://www•onlyandsons•com/fi-fi/product/22022876_207/regular-fit-housut?rm=R2V0UmVsYXRlZEl0ZW1z
 $removeparam=rm,domain=jackjones.com|jjxx.com|mamalicious.com|only.com|onlyandsons.com|veromoda.com
@@ -40349,6 +40398,9 @@ $doc,removeparam=mpch,domain=shutterfly.com|shutterflyinc.com
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18539702
 ||harborfreight.com^$doc,removeparam=mi_u
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18559456
+||harborfreight.com^$doc,removeparam=adsetid
 
 !#if !env_mobile
 ! 🖥️ ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ——— 🖥️ !
