@@ -111,7 +111,7 @@
 
 [Adblock Plus 3.13]
 ! Title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 04October2026v1
+! Version: 13October2026v1
 ! Expires: 1 day
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks domains and domain patterns used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! Note: When asking us to whitelist a site: Make sure the site has some sort of public content. Non-public sites and alias sites are usually not whitelisted.
@@ -13831,6 +13831,12 @@ $all,ipaddress=45.150.34.21
 $all,ipaddress=45.87.249.13
 $all,ipaddress=77.91.96.188
 $all,ipaddress=88.214.50.173
+||marymitchelle554.github.io^$all
+||chelsieminissale.github.io^$all
+.github.io/.github/Daz-Studio$doc
+||istatlmenus.com^$all
+||macperformancetools.com^$all
+||swarveuncity.com^$all
 ! Researching fonts for Taiwanese kana (19/06/2026)
 ||mojikyo.org^$all
 ||trekpeak.site^$all
@@ -13850,7 +13856,8 @@ $all,ipaddress=35.71.155.166
 ! https://github.com/DandelionSprout/adfilt/issues/1275
 ||tgdrive.app^$all
 ||tg-drive-bx4f.onrender.com^$all
-
+! Was hĳacked after some point
+||ibarrareal.es^$all
 
 ! ——— A hĳacked link that had previously been on https://sims•fandom•com/wiki/Game_guide:Fog_emitter ———
 ||0network.com^$all
@@ -34084,10 +34091,12 @@ qwant.com##div[data-testid=containerWeb] div[class=""]:first-of-type:has(a[data-
 
 [Adblock Plus 3.15]
 ! Title: ⛵️ Anti-"«Add as a preferred source on Google» widgets on non-Google sites" List
-! Version: 25September2026v1-Alpha
+! Version: 12October2026v1-Alpha
 ! Description: In late 2025, widgets to add various newssites to the user's Google account's Google News "Preferred Sources" list began showing up on those various newssites' articles. This list removes those widgets.
 ! Homepage: https://github.com/DandelionSprout/adfilt
 
+! No particular examples
+eurogamer.*##.preferred_source_button
 ! https://www•sfgate•com/national-parks/article/national-parks-change-prioritizes-trump-birthday-21219336.php (Early December 2025)
 sfgate.com##.br4.deep
 ! https://bleedingcool•com/tv/60-minutes-pulled-trump-cecot-segment-airs-on-global-tv-in-canada/ (23/12/2025)
@@ -34115,6 +34124,10 @@ sourceforge.net###preferred-source-button
 diskpart.com##.theme-side
 ! 25. sep. 2026 https://geekrewind.com/how-to-set-up-ssh-key-login-with-windows-11/
 ~google.*,~google,~goog##.gr-google-follow##.google-addus:not(html,body)
+! pcgamesnCOM (30/09/2026)
+~google.*,~google,~goog##.legion-preferred-source:not(html,body)
+! sports•yahoo•com (02/10/2026)
+~google.*,~google,~goog##elgoog-btn:not(html,body)
 
 ! END: Anti«GooglePreferredSource»List.txt
 
@@ -34438,7 +34451,7 @@ www.pixiv.net##.text-left.charcoal-clickable
 !------------------------------------------------------------
 
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 10October2026v1
+! Version: 13October2026v1
 ! Expires: 12 hours
 ! Description: In a world dominated by bitLy, adfLy, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary ?/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -36269,6 +36282,9 @@ $removeparam=deepLinkGuid
 ! https://www•playstation•com/no-no/ps-plus/?smcid=pdc%3Ano-no%3Asupport-subscriptions-ps-plus-pc%3Aprimary%20nav%3Amsg-ps-plus%3Aabonner (10/08/2026)
 $removeparam=smcid
 
+! Snapchat Click ID: https://businesshelp.snapchat.com/s/article/troubleshooting-click-id?language=en_US (13/10/2026)
+$removeparam=ScCid
+
 ! ——— General blocking rules ——— !
 !! Scripts that solely exist to make URLs longer.
 ! https://github.com/DandelionSprout/adfilt/pull/320
@@ -36667,6 +36683,17 @@ $removeparam=_rdc
 ||instagram.com^$doc,removeparam=ndid
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18670208
 ||instacart.com^$doc,removeparam=ic_medium
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18824994
+||instagram.com^$doc,removeparam=psln
+||instagram.com^$doc,removeparam=rpxt
+||instagram.com^$doc,removeparam=srtk
+||instagram.com^$doc,removeparam=obrf
+||instagram.com^$doc,removeparam=cplk
+||instagram.com^$doc,removeparam=dlrf
+||instagram.com^$doc,removeparam=xtok
+||instagram.com^$doc,removeparam=mdxt
+||instagram.com^$doc,removeparam=exln
+||instagram.com^$doc,removeparam=vrfl
 
 !!! ——— Google ———
 ! https://books•googleusercontent•com/books/content/reader?id=ZqK8A800eu4C&hl=no&pg=epub_10-jpg&img=1&zoom=6&cds=2&sig=ACfU3U3Si7lRb8j-vl0ZHTxcQUS7QcwWfg&w=800&h=1046&cp_ksver=2%3DVrverkkqAh0•&source=ge-web-app (The "$sig" value is specific to individual Google Play Books accounts; 22/11/2020)
@@ -36845,14 +36872,6 @@ $removeparam=share_link_id
 $doc,removeparam=/^web_id\d+/,domain=tiktok.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4978150
 ||tiktok.com^$removeparam=embed_source
-! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18824994
-||instagram.com^$doc,removeparam=psln
-||instagram.com^$doc,removeparam=rpxt
-||instagram.com^$doc,removeparam=srtk
-||instagram.com^$doc,removeparam=obrf
-||instagram.com^$doc,removeparam=cplk
-||instagram.com^$doc,removeparam=dlrf
-||instagram.com^$doc,removeparam=xtok
 
 !!! ——— 🔊 Spotify ———
 ! https://open•spotify•com/playlist/37i9dQZF1DWXRvPx3nttRN?si=asdf1234567890
@@ -37814,7 +37833,7 @@ $removeparam=rt,domain=lendgo.com|bilibili.com
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/1784
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18426283
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18426542
-$doc,removeparam=lid,domain=baidu.com|chewy.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com|sonypictures.com
+$doc,removeparam=lid,domain=baidu.com|chewy.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com|sonypictures.com|mcdonalds.com
 
 ! https://www•microcenter•com/site/content/specialofferssd240inf•aspx?referaldomain=youtube•com&web=EMAIL%20OPT%20IN%20-%20DLA_INFLUENCER_LinusTechTips_10252021
 $removeparam=referaldomain,domain=microcenter.com
@@ -40100,6 +40119,9 @@ ref=macapp.supply$doc,removeparam=ref
 ||verizon.com^$doc,removeparam=EMHID
 ||verizon.com^$doc,removeparam=BID
 
+! https://www.nps.gov/orgs/1207/national-park-service-selects-frank-lands-as-deputy-director-for-operations.htm?ref=thebirthofacapital.info
+ref=thebirthofacapital.info$doc,removeparam=ref
+
 !#if !env_mobile
 ! 🖥️ ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ——— 🖥️ !
 ! https://sproutsluckycorner•files•wordpress•com/2019/12/ring-fit-adventure-smoothies-1•png?w=600 (Shows the actual raw image instead of a promotion page; 25/11/2020)
@@ -40869,7 +40891,7 @@ www.meta.ai##div[class*=" "]:nth-of-type(2):has(> div > div[data-pagelet*=Kadabr
 !------------------------------------------------------------
 
 [Adblock Plus 3.13]
-! Version: 04September2026v2
+! Version: 12October2026v2
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -41344,6 +41366,8 @@ threads.com###has-finished-comet-page + div[class^=__fb-][class*="-mode "]
 zalando.*##div[style="display:contents"]:not([data-trckng-component]):has(> div[style="display:contents"] > div[style^="min-height:"]:last-child:only-of-type)
 duck.ai###app form[data-chat-footer] > div:has(a:is([href*="://play.google.com/"],[href*="://apps.apple.com/"]))
 startpage.com##.app-promo
+xn--ernr-xoa.no##div.custom-screen + div.justify-center:has(a[href^="https://apps.apple.com/"])
+steampowered.com##.open_in_steam_container
 
 ! https://github.com/DandelionSprout/adfilt/issues/1047
 @@/jquery.smartbanner.js^
@@ -41424,6 +41448,8 @@ instagram.com##div[class]:first-of-type:not(.html-div) + div.html-div:has(+ div:
 ##.readInAppBtn:not(html,body,:empty)
 ! pdfTO (04/09/2026)
 ###pwaInstallBanner:not(:empty)
+! business-standardCOM (25/09/2026)
+##.readInAppBtn:not(html,body,:empty)
 
 ! Below are entries that I borrowed from "I Don't Want Your App", which was maintained by https://github.com/lassekongo83 at https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/i-dont-want-your-app.txt, and which was licenced as GPLv3
 ! Generic
