@@ -14976,7 +14976,7 @@ $all,ipaddress=199.168.185.4
 
 ﻿
 ! Title: 💊 Dandelion Sprout's Anti-Malware List (for AdGuard)
-! Version: 04October2026v1
+! Version: 17October2026v1
 ! Expires: 1 day
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks domains and domain patterns used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! Note: When asking us to whitelist a site: Make sure the site has some sort of public content. Non-public sites and alias sites are usually not whitelisted.
@@ -15457,6 +15457,8 @@ download.cnet.com##.c-globalCard:has(a[href*="/AdsCleaner/"])
 ||reddtt.com^$all
 ||reddtit.com^$all
 ||mirappe.com^$all
+||rreddit.com^$all
+||reddt.com^$all
 
 ! ——— Frequently or previously frequently used to infiltrate and maliciously redirect sites ———
 ||ortrun-adi.com^$all
@@ -29915,6 +29917,12 @@ drvhub.net##.driver-item__install
 77.91.96.188$network
 !+ PLATFORM(windows, mac, android, cli)
 88.214.50.173$network
+||marymitchelle554.github.io^$all
+||chelsieminissale.github.io^$all
+.github.io/.github/Daz-Studio$document
+||istatlmenus.com^$all
+||macperformancetools.com^$all
+||swarveuncity.com^$all
 ! Researching fonts for Taiwanese kana (19/06/2026)
 ||mojikyo.org^$all
 ||trekpeak.site^$all
@@ -29944,7 +29952,8 @@ drvhub.net##.driver-item__install
 ! https://github.com/DandelionSprout/adfilt/issues/1275
 ||tgdrive.app^$all
 ||tg-drive-bx4f.onrender.com^$all
-
+! Was hĳacked after some point
+||ibarrareal.es^$all
 
 ! ——— A hĳacked link that had previously been on https://sims•fandom•com/wiki/Game_guide:Fog_emitter ———
 ||0network.com^$all
@@ -34470,7 +34479,7 @@ www.pixiv.net##.text-left.charcoal-clickable
 !------------------------------------------------------------
 
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 16October2026v1
+! Version: 19October2026v1
 ! Expires: 12 hours
 ! Description: In a world dominated by bitLy, adfLy, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary ?/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -40148,6 +40157,10 @@ $doc,removeparam=smtrctid,domain=samsclub.com|walmart.com
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18930157
 ||oxylabs.io^$removeparam=groupid
 ||oxylabs.io^$removeparam=transaction_id
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18998151
+||simon.com^$doc,removeparam=bt_ee
+||simon.com^$doc,removeparam=bt_ts
 
 !#if !env_mobile
 ! 🖥️ ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ——— 🖥️ !
