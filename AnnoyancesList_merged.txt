@@ -14474,7 +14474,7 @@ $all,ipaddress=212.27.60.108
 
 [Adblock Plus 3.8]
 ! Title: AdGuard Safe Browsing Reverse-Engineered
-! Version: 12January2026v2-Extension
+! Version: 31October2026v1-Extension
 ! Description: This is a list of queries sent to «Dandelion Sprout's Official DNS Server» that were blocked by AdGuard's very secretive anti-malware module (along with the dates they were first observed), and which I'm publishing for the benefit of uBlock Origin users, and to help de-mystificate the module, even if it contains less than 0.1% of the module's full and secret blocklist.
 ! Domains first seen 20th of July 2021
 ||oxtop.ru^
@@ -14572,7 +14572,6 @@ $all,ipaddress=212.27.60.108
 ||md.thefilipinodoctor.com^
 ||pavmhh.com^
 ||qttjjw.com^
-||store1.gofile.io^
 ||techsupport.smartpcupdate.com^
 ||uhakhh.com^
 ||www.webku.net^
@@ -34479,7 +34478,7 @@ www.pixiv.net##.text-left.charcoal-clickable
 !------------------------------------------------------------
 
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 29October2026v1
+! Version: 31October2026v2
 ! Expires: 12 hours
 ! Description: In a world dominated by bitLy, adfLy, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary ?/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -36720,6 +36719,8 @@ $removeparam=_rdc
 ||instagram.com^$doc,removeparam=mdxt
 ||instagram.com^$doc,removeparam=exln
 ||instagram.com^$doc,removeparam=vrfl
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-19318985
+||instagram.com^$doc,removeparam=target_user_id
 
 !!! ——— Google ———
 ! https://books•googleusercontent•com/books/content/reader?id=ZqK8A800eu4C&hl=no&pg=epub_10-jpg&img=1&zoom=6&cds=2&sig=ACfU3U3Si7lRb8j-vl0ZHTxcQUS7QcwWfg&w=800&h=1046&cp_ksver=2%3DVrverkkqAh0•&source=ge-web-app (The "$sig" value is specific to individual Google Play Books accounts; 22/11/2020)
@@ -40169,6 +40170,9 @@ $doc,removeparam=smtrctid,domain=samsclub.com|walmart.com
 $doc,removeparam=hid,domain=investopedia.com|people.inc
 $doc,removeparam=lr_input,domain=investopedia.com|people.inc
 ||investopedia.com^$doc,removeparam=inv_to_sim
+
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-19302144
+||entire.com^$removeparam=redirected_from
 
 !#if !env_mobile
 ! 🖥️ ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ——— 🖥️ !
