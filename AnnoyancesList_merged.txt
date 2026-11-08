@@ -111,7 +111,7 @@
 
 [Adblock Plus 3.13]
 ! Title: 💊 Dandelion Sprout's Anti-Malware List
-! Version: 05November2026v2
+! Version: 08November2026v2
 ! Expires: 1 day
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks domains and domain patterns used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! Note: When asking us to whitelist a site: Make sure the site has some sort of public content. Non-public sites and alias sites are usually not whitelisted.
@@ -812,7 +812,6 @@ $all,ipaddress=/^172\.255\.6\.(\d\d?|(17?|2)[0-689]\d)$/
 ||distractingzodiacperpetrate.com^$all
 ||disturbancetrappeddug.com^$all
 ||dockwhip.com^$all
-||dominioneastern.com^$all
 ||doodleanyone.com^$all
 ||drowsysuspicious.com^$all
 ||dulycalamitybusiness.com^$all
@@ -974,7 +973,6 @@ $all,ipaddress=/^172\.255\.6\.(\d\d?|(17?|2)[0-689]\d)$/
 ||tracesjigsaw.com^$all
 ||tracksfreezingdomestic.com^$all
 ||troubledistinctly.com^$all
-||truthtraff.com^$all
 ||twinklefemale.com^$all
 ||twistneedylever.com^$all
 ||unexpectedcambridgespotlight.com^$all
@@ -1004,7 +1002,6 @@ $all,ipaddress=/^192\.243\.61\.[12]?\d?\d$/
 ||bigkick.biz^$all
 ||findmedia.biz^$all
 ||getcontent24.com^$all
-||hooligapps.com^$all
 ||mediadate.net^$all
 ||newscode.me^$all
 ||newsgate.biz^$all
@@ -1928,7 +1925,6 @@ $doc,ipaddress=31.220.27.134
 ||fun4game.icu^$all
 ||games4fun.online^$all
 ||getbonus.fun^$all
-||go2linkfast.com^$all
 ||gooobet.com^$all
 ||gooobetaffiliate.com^$all
 ||helabet.com^$all
@@ -3689,7 +3685,6 @@ $all,ipaddress=208.88.225.119
 ||ermin-oxj.info^$all
 ||gloos-zus.info^$all
 ||kuno-gae.com^$all
-||zeroredirect1.com^$all,domain=~malware_redirection_trains.*
 ||redirect.newprogrammatic.click^$doc,domain=~likely_a_malware_redirection.*
 /zcvisitor/*?campaignid$doc
 $all,ipaddress=3.231.116.86
@@ -3734,7 +3729,6 @@ $all,ipaddress=85.17.80.16
 ||topmoneysurvey.com^$all
 ||awarded-best-vpn.com^$all
 ||best-finance-now.com^$all
-||best-global-apps.com^$all
 ||best-official-app.com^$all
 ||best-smart-utility.com^$all
 ||big-players-club.com^$all
@@ -3970,7 +3964,6 @@ $all,ipaddress=/^5\.61\.60\.[12]?\d?\d$/
 ||sisgrower.com^$all
 ||special-discounts.club^$all
 ||special-offers.club^$all
-||special-trending-news.com^$all
 ||sportsfunnynews.com^$all
 ||thegossipmaster.com^$all
 ||toplifestyle-blog.com^$all
@@ -4178,7 +4171,6 @@ $all,ipaddress=/^192\.243\.58\.[12]?\d?\d$/
 ||iyfs8.com^$all
 ||iyfsc.com^$all
 ||iyfsdh.com^$all
-||iyfsearch.com^$all
 ||iyfsj.com^$all
 ||iyfsm.com^$all
 ||iyfsrp.com^$all
@@ -4252,7 +4244,6 @@ $all,ipaddress=208.91.196.46
 ||abberantbeefy.com^$all
 ||abominableexhibition.com^$all
 ||abruptlyinstitution.com^$all
-||abyssfar.com^$all
 ||acrepantherrecite.com^$all
 ||actressfootball.com^$all
 ||adaptationreconsider.com^$all
@@ -4317,7 +4308,6 @@ $all,ipaddress=208.91.196.46
 ||combinationdecorate.com^$all
 ||commentaryforestblaspheme.com^$all
 ||committeereconcilelibrarian.com^$all
-||complementnickel.com^$all
 ||completelywrath.com^$all
 ||compoundministerindoor.com^$all
 ||condenseddisgustingconform.com^$all
@@ -4326,7 +4316,6 @@ $all,ipaddress=208.91.196.46
 ||consultantshoplifting.com^$all
 ||continuedbumpcracking.com^$all
 ||conveniencehotel.com^$all
-||correspondimpulsive.com^$all
 ||counsellingrouge.com^$all
 ||countypuddleillusion.com^$all
 ||credulityicicle.com^$all
@@ -4382,7 +4371,6 @@ $all,ipaddress=208.91.196.46
 ||folksordinarilyindoors.com^$all
 ||forcelessgooseberry.com^$all
 ||forgivenesssweptsupervision.com^$all
-||fourwhenstatistics.com^$all
 ||framestighterauthorize.com^$all
 ||fraytreasure.com^$all
 ||frequentstocking.com^$all
@@ -4398,7 +4386,6 @@ $all,ipaddress=208.91.196.46
 ||grumpybreakingsalad.com^$all
 ||handwritingnomad.com^$all
 ||hardlycompanionelongated.com^$all
-||havingunderwear.com^$all
 ||heavyconsciousnesspanties.com^$all
 ||hewawkward.com^$all
 ||hilarioussewingartsy.com^$all
@@ -4552,14 +4539,11 @@ $all,ipaddress=208.91.196.46
 ||chryjmp.com^$all
 ||click.jasmin.com^$all
 ||crbbjmp.com^$all
-||crjugate.com^$all
 ||crtajmp.com^$all
 ||crtjmp.com^$all
 ||crtmainjmp.com^$all
 ||jsmcrjmp.com^$all
-||jsmcrptjmp.com^$all
-||jsmptjmp.com^$all
-||protojsmgw.com^$all
+|||protojsmgw.com^$all
 ||ptbbjmp.com^$all
 ||ptcrwmjmp.com^$all
 ||ptentry.com^$all
@@ -4877,7 +4861,6 @@ $all,ipaddress=192.243.61.227
 ||baretopmost.com^$all
 ||barleyconsequently.com^$all
 ||barnacleoverdo.com^$all
-||batesurveyed.com^$all
 ||bathfoot.com^$all
 ||beaglemanipulate.com^$all
 ||bearinggall.com^$all
@@ -4980,7 +4963,6 @@ $all,ipaddress=192.243.61.227
 ||creedoverwork.com^$all
 ||crematedarkerdwight.com^$all
 ||criminalcircumstantial.com^$all
-||criticalaeroplanepleat.com^$all
 ||cryingtherefore.com^$all
 ||cupboardconsequently.com^$all
 ||cupsflatly.com^$all
@@ -5021,7 +5003,6 @@ $all,ipaddress=192.243.61.227
 ||downloadwiselyfaintest.com^$all
 ||downypiece.com^$all
 ||draggedindicationconsiderable.com^$all
-||dressedoutrageousrun.com^$all
 ||droughthans.com^$all
 ||dryerlast.com^$all
 ||dualinconvenientdoorman.com^$all
@@ -5146,7 +5127,6 @@ $all,ipaddress=192.243.61.227
 ||mentallyarduous.com^$all
 ||midsummertuesdaydistress.com^$all
 ||millenniumwhimditto.com^$all
-||mingleassertiveregard.com^$all
 ||minusbillion.com^$all
 ||modifiedseem.com^$all
 ||moodposture.com^$all
@@ -5161,7 +5141,6 @@ $all,ipaddress=192.243.61.227
 ||nasalhoney.com^$all
 ||nauticaloctober.com^$all
 ||nephewdin.com^$all
-||netcpms.com^$all
 ||newcomerecho.com^$all
 ||nondescriptstranger.com^$all
 ||northdemocrat.com^$all
@@ -5210,7 +5189,6 @@ $all,ipaddress=192.243.61.227
 ||ranchtaught.com^$all
 ||readyvengeance.com^$all
 ||realityreputedime.com^$all
-||recipientpopulationregret.com^$all
 ||referredtriumph.com^$all
 ||refrigeratechat.com^$all
 ||rehabilitationpamphletdisposition.com^$all
@@ -5783,7 +5761,6 @@ $all,ipaddress=208.91.189.203
 ||intimidatingbargain.com^$all
 ||isolateddaft.com^$all
 ||italianadherencemarch.com^$all
-||janglecondemn.com^$all
 ||jewelsneverthelesspound.com^$all
 ||junehardilygreetings.com^$all
 ||justificationshapelessvisited.com^$all
@@ -5851,7 +5828,6 @@ $all,ipaddress=208.91.189.203
 ||plaindodgy.com^$all
 ||plumageresidegift.com^$all
 ||pointswomb.com^$all
-||politicsgrowinghollow.com^$all
 ||poodledefyabc.com^$all
 ||popuserapparatus.com^$all
 ||abominableasperitysupper.com^$all
@@ -5911,7 +5887,6 @@ $all,ipaddress=208.91.189.203
 ||bragcaptivity.com^$all
 ||brochureshown.com^$all
 ||brotherhoodtackyelevated.com^$all
-||brotherinlawbarbedspend.com^$all
 ||brothermessyportfolio.com^$all
 ||brutallyselfevidentmiser.com^$all
 ||buckwheatardentonefoldonefold.com^$all
@@ -6159,7 +6134,6 @@ $all,ipaddress=208.91.189.203
 ||admithelperbusy.com^$all
 ||admonishmare.com^$all
 ||adrenalineanywaystaple.com^$all
-||advancingtheirs.com^$all
 ||advisoramazingly.com^$all
 ||airtightafternoon.com^$all
 ||alfredthwart.com^$all
@@ -6440,10 +6414,8 @@ $all,ipaddress=208.91.189.203
 ||likingblocks.com^$all
 ||listenernecessary.com^$all
 ||locateentangledtemper.com^$all
-||logsoutfittick.com^$all
 ||marginpublished.com^$all
 ||marineantipathy.com^$all
-||markswaitingrouge.com^$all
 ||mascaradash.com^$all
 ||mascaraoathdisappearance.com^$all
 ||mayhemeccentric.com^$all
@@ -6754,7 +6726,6 @@ $all,ipaddress=208.91.189.203
 ||keyholetroops.com^$all
 ||ladlereinforceframing.com^$all
 ||lambgirliequiver.com^$all
-||lampshadescreen.com^$all
 ||leanreplace.com^$all
 ||lengthenchateauknights.com^$all
 ||liberalpeeves.com^$all
@@ -6792,7 +6763,6 @@ $all,ipaddress=208.91.189.203
 ||mutterparknegligence.com^$all
 ||namelessdaybreakforepaws.com^$all
 ||naturejunelatitude.com^$all
-||nauticalpingelephant.com^$all
 ||nearbyfertile.com^$all
 ||needtypicalanonymous.com^$all
 ||neglectplashrapacity.com^$all
@@ -6828,7 +6798,6 @@ $all,ipaddress=208.91.189.203
 ||acquitmidst.com^$all
 ||advisorbailedroof.com^$all
 ||allegationobtain.com^$all
-||alternatewavyrid.com^$all
 ||ambiguityhalfmoon.com^$all
 ||amidbow.com^$all
 ||amnestyhailstone.com^$all
@@ -6979,14 +6948,12 @@ $all,ipaddress=208.91.189.203
 ||emulationhunt.com^$all
 ||encyclopaediamagicteams.com^$all
 ||enhancedbelowemma.com^$all
-||enloweb.com^$all
 ||entailgrandeur.com^$all
 ||entertainedpremieresettled.com^$all
 ||entrepreneurmillenniumbrowse.com^$all
 ||establishanymore.com^$all
 ||eveningsafterwardlorry.com^$all
 ||everyoneprocessingworse.com^$all
-||excruciationaccident.com^$all
 ||exhalelower.com^$all
 ||expandinglair.com^$all
 ||expenditureoxendorothy.com^$all
@@ -7070,7 +7037,6 @@ $all,ipaddress=208.91.189.203
 ||insulationonto.com^$all
 ||interestedderivedwoodlands.com^$all
 ||invalidhydrogencrust.com^$all
-||irritablecrowd.com^$all
 ||islandgainfulflip.com^$all
 ||isobeldrug.com^$all
 ||jacksonvisa.com^$all
@@ -7248,7 +7214,6 @@ $all,ipaddress=208.91.189.203
 ||clinicblocked.com^$all
 ||cloakattended.com^$all
 ||cloneentice.com^$all
-||clungfellow.com^$all
 ||cocoafabulous.com^$all
 ||cognomenabsentdoubt.com^$all
 ||collectionsmast.com^$all
@@ -7382,7 +7347,6 @@ $all,ipaddress=208.91.189.203
 ||honoursimportantlycomb.com^$all
 ||hookerstaple.com^$all
 ||hooraywailing.com^$all
-||horacereciprocalvaccination.com^$all
 ||horizontallypectoraltruthfully.com^$all
 ||hornymantlepoll.com^$all
 ||hostessdeeply.com^$all
@@ -7819,7 +7783,6 @@ $all,ipaddress=208.91.189.203
 ||perryseaconfident.com^$all
 ||persecuteurgent.com^$all
 ||pessimisticpester.com^$all
-||aboveaverageheavenly.com^$all
 ||aceyearling.com^$all
 ||additionspearlthaw.com^$all
 ||advancementalong.com^$all
@@ -7885,7 +7848,6 @@ $all,ipaddress=208.91.189.203
 ||cathedralreflectedtranquilizer.com^$all
 ||centimetrelarksplitting.com^$all
 ||chalkcivicspectrum.com^$all
-||chateaurecalled.com^$all
 ||chatresultwindow.com^$all
 ||cheerfullysoldier.com^$all
 ||chiefparadise.com^$all
@@ -8126,13 +8088,11 @@ $all,ipaddress=208.91.189.203
 ||accountfluid.com^$all
 ||accuratewistful.com^$all
 ||acquiredcycle.com^$all
-||acrebackcharacter.com^$all
 ||activitycommence.com^$all
 ||adaptlipclamour.com^$all
 ||addingdetestable.com^$all
 ||addresscake.com^$all
 ||admirercape.com^$all
-||advantageroughplay.com^$all
 ||adventuroustame.com^$all
 ||advertiseconclusiveactual.com^$all
 ||affirmativeinferiorfixed.com^$all
@@ -8143,7 +8103,6 @@ $all,ipaddress=208.91.189.203
 ||airborneassaultshrink.com^$all
 ||alarmtunebunny.com^$all
 ||amazementslick.com^$all
-||amuseulteriorpair.com^$all
 ||angerfondnessspecified.com^$all
 ||antiquityundeniable.com^$all
 ||apexcucumber.com^$all
@@ -8334,7 +8293,6 @@ $all,ipaddress=208.91.189.203
 ||formallyembracetomato.com^$all
 ||formallypatronhomosexual.com^$all
 ||forthcomingclassroom.com^$all
-||fortunatelychastise.com^$all
 ||fowlsstirringinclude.com^$all
 ||frameworkilluminatedcredulity.com^$all
 ||fraternitylighter.com^$all
@@ -8427,7 +8385,6 @@ $all,ipaddress=208.91.189.203
 ||minibuiltperjury.com^$all
 ||missingputrescent.com^$all
 ||mistydivided.com^$all
-||mondayrecalled.com^$all
 ||montleymontleysurf.com^$all
 ||morselfrom.com^$all
 ||moscowsuggestedinept.com^$all
@@ -8808,7 +8765,6 @@ $all,ipaddress=208.91.189.203
 ||lotsuitcaseewe.com^$all
 ||migrationquit.com^$all
 ||organthycuckoo.com^$all
-||pairturnnumerous.com^$all
 ||panicboredflap.com^$all
 ||parchmentcontinentsetback.com^$all
 ||partyingapplied.com^$all
@@ -9047,7 +9003,6 @@ $all,ipaddress=208.91.189.203
 ||romanwreathdisperse.com^$all
 ||rotatedisconnectedconstellation.com^$all
 ||rotundate.com^$all
-||rousedobjectsfunds.com^$all
 ||routeplausibleinjustice.com^$all
 ||rowadaptation.com^$all
 ||rufflebend.com^$all
@@ -9092,7 +9047,6 @@ $all,ipaddress=208.91.189.203
 ||scorchduckbytes.com^$all
 ||scowlanywhere.com^$all
 ||scrambledfair.com^$all
-||screechdeprivescatter.com^$all
 ||screwoffensivebanter.com^$all
 ||sculptorpreventionnewspapers.com^$all
 ||seafoodjollyprotective.com^$all
@@ -9465,7 +9419,6 @@ $all,ipaddress=208.91.189.203
 ||urinesnortonline.com^$all
 ||usherfetid.com^$all
 ||vacancyreverenceflattering.com^$all
-||vacuumintendedinhale.com^$all
 ||vaintailconsider.com^$all
 ||valetoverdue.com^$all
 ||varyfrequently.com^$all
@@ -9484,7 +9437,6 @@ $all,ipaddress=208.91.189.203
 ||versionsoffencepopped.com^$all
 ||versionsrandivision.com^$all
 ||victorygets.com^$all
-||videotapewagon.com^$all
 ||vidox.net^$all
 ||viewconsole.com^$all
 ||viewercarterfactor.com^$all
@@ -9521,7 +9473,6 @@ $all,ipaddress=208.91.189.203
 ||wavingconcludeauction.com^$all
 ||wearinessalimony.com^$all
 ||weasellotterymanhood.com^$all
-||weaversprinkle.com^$all
 ||websitepressing.com^$all
 ||weeklysenateearlap.com^$all
 ||wereabonnementsupplied.com^$all
@@ -9546,7 +9497,6 @@ $all,ipaddress=208.91.189.203
 ||wiselyelemental.com^$all
 ||withdrawperformed.com^$all
 ||withholdnausea.com^$all
-||workdeadlinededicate.com^$all
 ||workedblackmailingfurry.com^$all
 ||workingastonishedinfractructure.com^$all
 ||workmanencouraged.com^$all
@@ -9909,7 +9859,6 @@ $all,ipaddress=2600:1f1c:57F:b502:dd8:9588:11e6:282
 ||luglawhaulsano.net^$all
 ||lwaka.com^$all
 ||mariannursing.com^$all
-||meherdewogoud.com^$all
 ||mostourigoatik.com^$all
 ||nashickaltirdab.com^$all
 ||nidiv.com^$all
@@ -9920,7 +9869,6 @@ $all,ipaddress=2600:1f1c:57F:b502:dd8:9588:11e6:282
 ||resumeg.com^$all
 ||theeghumoaps.com^$all
 ||tichairg.com^$all
-||usheebainaut.com^$all
 ||uxdom.com^$all
 ||voupsauk.com^$all
 ||whomeenoaglauns.com^$all
@@ -10917,7 +10865,6 @@ $all,ipaddress=43.164.196.209
 $all,ipaddress=88.255.216.16
 $all,ipaddress=204.194.54.*
 ! https://new•reddit•com/r/softwaregore/comments/1spebzh/i_broke_the_antivirus_ad/ (19/04/2026)
-||adtng.com^$all
 ||anonymity-guardstation.com^$all
 ||anonymity-ninjacloud.com^$all
 ||anonymitynetsafe.com^$all
@@ -10934,7 +10881,6 @@ $all,ipaddress=204.194.54.*
 ||bestsafeconnect.com^$all
 ||bestsecuritysurf.com^$all
 ||besttracksafe.com^$all
-||blowingwind.xyz^$all
 ||broilergrowerantitrustsettlement.com^$all
 ||browsefreelynow.com^$all
 ||browseghostly.com^$all
@@ -10973,7 +10919,6 @@ $all,ipaddress=204.194.54.*
 ||empowersecureweb.com^$all
 ||ewiroa.com^$all
 ||exgforge.com^$all
-||exmainclcknew.com^$all
 ||exppxxclck.com^$all
 ||extraordinary-rainbow.com^$all
 ||fixbetin.com^$all
@@ -10987,9 +10932,7 @@ $all,ipaddress=204.194.54.*
 ||freedomwallapp.com^$all
 ||freedomwallnet.com^$all
 ||gangorgy-party.com^$all
-||genericdianawitty.com^$all
-||geotrkclknow.com^$all
-||ghostaccesscloud.com^$all
+|||ghostaccesscloud.com^$all
 ||ghostdatashield.com^$all
 ||ghostdeviceprotect.com^$all
 ||ghostprivacybarrier.com^$all
@@ -11020,10 +10963,8 @@ $all,ipaddress=204.194.54.*
 ||internetwallguard.com^$all
 ||junclikrmedi.com^$all
 ||kbctool.com^$all
-||leoyard.com^$all
 ||linecardonation.org^$all
 ||livetotherescue.org^$all
-||martted.com^$all
 ||miakhlaifa.com^$all
 ||mobileprivacy-connect.com^$all
 ||mobilesecureconnect.com^$all
@@ -11043,7 +10984,6 @@ $all,ipaddress=204.194.54.*
 ||onlinesurfsafe.com^$all
 ||onmicrosoft.co^$all
 ||oomcast.com^$all
-||optvz.com^$all
 ||ourdreamersai.com^$all
 ||pagemaster.net^$all
 ||phoneprivacycloud.com^$all
@@ -11070,9 +11010,7 @@ $all,ipaddress=204.194.54.*
 ||protectmydevicepro.com^$all
 ||protectsurfcloud.com^$all
 ||protectsurfhub.com^$all
-||pushub.net^$all
 ||quantum-saferoute.com^$all
-||rovno.xyz^$all
 ||s24.cloud^$all
 ||safe-datastorage.com^$all
 ||safe-pathway.com^$all
@@ -11092,7 +11030,6 @@ $all,ipaddress=204.194.54.*
 ||safetrackshield.com^$all
 ||safetywebgate.com^$all
 ||safewebbrowsing-zone.com^$all
-||sanynouncem.org^$all
 ||sarai-tid.com^$all
 ||scoatiabank.com^$all
 ||secretdataaccess.com^$all
@@ -11186,6 +11123,10 @@ $all,ipaddress=13.140.171.211
 ! https://github.com/DandelionSprout/adfilt/issues/1296
 ||koboldcpp.com^$all
 $all,ipaddress=146.19.248.143
+! https://github.com/DandelionSprout/adfilt/issues/1310
+||wlygrowth.com^$all
+||ludashisafe.com^$all
+||ludashi.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www•toorgle•net/results•php?q=fetishkitsch&security=666
@@ -11276,7 +11217,6 @@ toorgle.net##.join
 ||centuriesactionperfectly.com^$all
 ||channelgardeningplaster.com^$all
 ||clankallegation.com^$all
-||clodsplit.com^$all
 ||closingcomposedlassitude.com^$all
 ||clungeelchord.com^$all
 ||collectionspriestcardiac.com^$all
@@ -11301,7 +11241,6 @@ toorgle.net##.join
 ||educationdemotediabete.com^$all
 ||eyeshadowclayindulgence.com^$all
 ||fairyeverywhere.com^$all
-||fastidiousenvoy.com^$all
 ||festivaleradicate.com^$all
 ||fiscalusing.com^$all
 ||foetusconductfold.com^$all
@@ -11444,7 +11383,6 @@ $all,ipaddress=/^194\.226\.139\.[12]?\d?\d$/
 ||venomousgolf.com^$all
 ||carperspiration.com^$all
 ||porkinconceivable.com^$all
-||restorationbowelsunflower.com^$all
 ||foalbasement.com^$all
 ||relybelonged.com^$all
 ||revenuetonightperforming.com^$all
@@ -11619,7 +11557,6 @@ $doc,ipaddress=198.58.118.167
 ||thunderoffer.net^$all
 ||todayoffer.net^$all
 ||totalinsuranceoffers.com^$all
-||traffic-c.com^$all
 ||traffic-links.com^$all
 ||traffic-offer.com^$all
 ||trccmpndl.com^$all
@@ -11768,7 +11705,6 @@ $all,ipaddress=209.74.107.131
 ||maxbounty.ai^$all
 ||maxbounty.ca^$all
 ||mb1-cdn.com^$all
-||mb223.com^$all
 ||mbt3st3r1.com^$all
 ||mbt3st3r2.com^$all
 ||owliz18qmfml.com^$all
@@ -12879,9 +12815,7 @@ $all,ipaddress=139.45.195.9
 ! Other entries
 ||animeplaynow.com^$doc,popup
 ||playanimenow.com^$doc,popup
-||datedate.today^$all
 ||go.dealslandz.com^$all
-||awecrptjmp.com^$doc,popup
 ||172.240.41.32^$all
 ||172.240.41.64^$all
 ||172.240.41.96^$all
@@ -12900,7 +12834,6 @@ $all,ipaddress=172.240.41.129
 ! bdsmx-pornCOM
 ||6traitors.com^$all
 ||baimgfroggd.site^$all
-||bartcons.com^$all
 ||cadlsyndicate.com^$all
 ||cadrctlnk.com^$all
 ||classgomewyt.shop^$all
@@ -13054,7 +12987,6 @@ $all,ipaddress=2a01:4f8:c0:2a5c::1
 ||ef42245b5e.com^$all
 ||f85d290a92.com^$all
 ||laketrend.com^$all
-||maginp.com^$all
 ||ntvpevnts.com^$all
 ||selecttopon.com^$all
 ||statelinear.com^$all
@@ -13069,7 +13001,6 @@ $all,ipaddress=2a01:4f8:e0:19cb::1
 ||cant3am.com^$all
 ||datingclix.com^$all
 ||ds4zqa.com^$all
-||dynsrvwer.com^$all
 ||elink12.com^$all
 ||elink2b.com^$all
 ||elinkgo2.com^$all
@@ -13085,7 +13016,6 @@ $all,ipaddress=2a01:4f8:e0:19cb::1
 ||elnz02.com^$all
 ||epcmr.com^$all
 ||exasrv.com^$all
-||gettopple.com^$all
 ||link334.com^$all
 ||linkgett.com^$all
 ||linkv3c.com^$all
@@ -13105,7 +13035,6 @@ $all,ipaddress=2a01:4f8:e0:19cb::1
 ||wlink2.com^$all
 ||zlink0.com^$all
 ||zlink3.com^$all
-||zlink9.com^$all
 ||zlinkl.com^$all
 ||95.211.229.247^$all
 $all,ipaddress=95.211.229.247
@@ -13377,7 +13306,6 @@ drvhub.net##.driver-item__install
 ||adxpoint.com^$all
 ||adzestocp.com^$all
 ||adzreach.com^$all
-||afront.io^$all
 ||agilitydigitalmedia.com^$all
 ||ahla5ababa.xyz^$all
 ||appleid.me^$all
@@ -13398,7 +13326,6 @@ drvhub.net##.driver-item__install
 ||check-it-out-first.com^$all
 ||clkoplardir.com^$all
 ||cloudyveritona.com^$all
-||coastalbloom.xyz^$all
 ||connectlinkr.com^$all
 ||crazy8frogz.xyz^$all
 ||cu70ffdumm155.xyz^$all
@@ -13518,15 +13445,12 @@ drvhub.net##.driver-item__install
 ||trackifyy.com^$all
 ||trckprf.com^$all
 ||trexnero.co.in^$all
-||trkpostback.com^$all
 ||trkvolumes.com^$all
 ||un4pr3gund4pl5.xyz^$all
 ||unac3rv3zap0rfav0r.xyz^$all
 ||uncencoriedvideos.life^$all
-||upuplets.com^$all
 ||upuplets.net^$all
 ||upuppeh.net^$all
-||urtyert.com^$all
 ||v03jplxq79.xyz^$all
 ||v40xpnml93.xyz^$all
 ||w0of-woof.com^$all
@@ -13591,7 +13515,6 @@ $all,ipaddress=2a01:4f8:2201:388a::2
 ! Websearching for news about diving in a Puebla-Toledo match
 ||aenhance.link^$all
 ||besttdate4you.com^$all
-||betr-for-tod.com^$all
 ||candydatee.com^$all
 ||candydatte.com^$all
 ||candygiirl.com^$all
@@ -13611,7 +13534,6 @@ $all,ipaddress=2a01:4f8:2201:388a::2
 ||datingwiithme.net^$all
 ||datingwiithmee.net^$all
 ||datingwiithyou.com^$all
-||datingwithmee.net^$all
 ||datingwithmie.com^$all
 ||dattewiithyou.com^$all
 ||dattingspace.com^$all
@@ -13623,7 +13545,6 @@ $all,ipaddress=2a01:4f8:2201:388a::2
 ||heavengirlls.com^$all
 ||hereisyourgirl.com^$all
 ||hotdesiire.com^$all
-||hotllove.net^$all
 ||hotpllace.com^$all
 ||hotspacce.com^$all
 ||hottdesire.net^$all
@@ -13635,9 +13556,7 @@ $all,ipaddress=2a01:4f8:2201:388a::2
 ||lovecconection.com^$all
 ||loveconectiion.com^$all
 ||loveday4you.com^$all
-||loveintension.com^$all
 ||loventtra.com^$all
-||mbsrv2.com^$all
 ||mylovvedatte.com^$all
 ||nakeddesiire.com^$all
 ||prodproof.com^$all
@@ -13910,7 +13829,6 @@ $all,ipaddress=35.71.155.166
 ||expialidosius.com^$all
 ||expilaclkdir.com^$all
 ||explodasclksec.com^$all
-||explorads.com^$all
 ||expoclknu.com^$all
 ||expplatdirect.com^$all
 ||fiddirexol.com^$all
@@ -13919,13 +13837,11 @@ $all,ipaddress=35.71.155.166
 ||fstsrv11.com^$all
 ||fstsrv14.com^$all
 ||fstsrv17.com^$all
-||funnyvot.com^$all
 ||gamesvot.com^$all
 ||globlemath.com^$all
 ||goldensummer.xyz^$all
 ||h12ads.net^$all
 ||hawkads.in^$all
-||healthvot.com^$all
 ||hotmaracas.com^$all
 ||hotmaracas.fun^$all
 ||infinity-info.com^$all
@@ -13972,7 +13888,6 @@ $all,ipaddress=35.71.155.166
 ||savethereef.xyz^$all
 ||solarad.net^$all
 ||splashandsunshine.com^$all
-||sportsvot.com^$all
 ||srvqck.com^$all
 ||srvqck1.com^$all
 ||srvqck2.com^$all
@@ -13987,7 +13902,6 @@ $all,ipaddress=35.71.155.166
 ||sweetwaves.info^$all
 ||swelltomedia.com^$all
 ||thenetwork18.com^$all
-||topdealad.com^$all
 ||topsolutionsmedia.com^$all
 ||tropicalsands.club^$all
 ||tropicalsummer.xyz^$all
@@ -14001,7 +13915,6 @@ $all,ipaddress=35.71.155.166
 ||xeopdirenu.com^$all
 ||xepdirecto.com^$all
 ||xmlppc.net^$all
-||yeesshh.com^$all
 ||yolkclknu.com^$all
 ||yolkdirxl.com^$all
 ||103.67.200.64^$all
@@ -14030,7 +13943,6 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||fusionchainedge.com^$all
 ||d621b18hubcc73aav3e0.fusionchainedge.com^$all
 ||watchnowclick.com^$all
-||silverwhitebirds.co^$all
 ||anthracnosis.lat^$all
 ||bzbiz-crm.com^$all
 ||voyagewinds.co^$all
@@ -14039,7 +13951,6 @@ $all,ipaddress=2a00:8860:10d:1::2:b01
 ||ff.newtabsearch.net^$doc
 ||addons.newtabsearch.net^$doc
 ||telemechanism.cyou^$all
-||ey43.com^$all
 ||resultsfastfind.com^$doc
 ! https://github.com/DandelionSprout/adfilt/issues/1223
 ! https://tria.ge/260211-16ykvsb12c/behavioral1
@@ -14957,8 +14868,7 @@ $all,ipaddress=199.168.185.4
 ||youtuba.com^$all
 ||youutube.com^$all
 ||youvetube.com^$all
-||zonedummy.com^$all
-!#endif
+|!#endif
 
 ! Placeholder line for alternate list versions
 
@@ -14977,7 +14887,7 @@ $all,ipaddress=199.168.185.4
 
 ﻿
 ! Title: 💊 Dandelion Sprout's Anti-Malware List (for AdGuard)
-! Version: 05November2026v2
+! Version: 07November2026v1
 ! Expires: 1 day
 ! Description: This list goes the extra kilometer to prevent more malware than other mainstream anti-malware lists. It blocks domains and domain patterns used in malware redirection trains and in domain parking schemes, blocks sponsored Windows PUP nags on PC guide articles, uses mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 ! Note: When asking us to whitelist a site: Make sure the site has some sort of public content. Non-public sites and alias sites are usually not whitelisted.
@@ -26860,6 +26770,10 @@ http://secured21.*.com/|$all
 ||koboldcpp.com^$all
 !+ PLATFORM(windows, mac, android, cli)
 146.19.248.143$network
+! https://github.com/DandelionSprout/adfilt/issues/1310
+||wlygrowth.com^$all
+||ludashisafe.com^$all
+||ludashi.com^$all
 
 ! ——— Standard malware that I stumbled upon on my own ———
 ! http://www•toorgle•net/results•php?q=fetishkitsch&security=666
@@ -34482,7 +34396,7 @@ www.pixiv.net##.text-left.charcoal-clickable
 !------------------------------------------------------------
 
 ﻿! Title: ➗ Actually Legitimate URL Shortener Tool
-! Version: 06November2026v2
+! Version: 07November2026v2
 ! Expires: 12 hours
 ! Description: In a world dominated by bitLy, adfLy, and several thousand other malware cover-up tools, this list reduces the length of URLs in a much more legitimate and transparent manner. Essentially, it automatically removes unnecessary ?/& values from the URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Enjoy.
 ! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
@@ -38563,7 +38477,7 @@ $removeparam=user_id,doc,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64yt
 $removeparam=x50878
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13958#issuecomment-1178776992
-$removeparam=c,domain=redirect.appmetrica.yandex.com|blu-ray.com
+$doc,removeparam=c,domain=redirect.appmetrica.yandex.com|blu-ray.com
 
 ! https://www•bloomberg•com/news/articles/2022-07-07/stocks-set-to-rise-as-recession-obsession-cools-markets-wrap?fromMostRead=true
 $removeparam=fromMostRead,domain=bloomberg.com
@@ -40182,6 +40096,9 @@ $doc,removeparam=lr_input,domain=investopedia.com|people.inc
 ||oldphoneworks.com^$doc,removeparam=_su_rec
 ||oldphoneworks.com^$doc,removeparam=_su_rec_id
 
+! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-19468398
+||amazon.com^$doc,removeparam=btn_ref
+
 !#if !env_mobile
 ! 🖥️ ——— Entries mostly dedicated to maximising image sizes (thus poorly suited for phones) ——— 🖥️ !
 ! https://sproutsluckycorner•files•wordpress•com/2019/12/ring-fit-adventure-smoothies-1•png?w=600 (Shows the actual raw image instead of a promotion page; 25/11/2020)
@@ -40339,7 +40256,7 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 !------------------------------------------------------------
 
 ﻿! Title: 🈺 Japanese Text Softener「日本語本文軟化」
-! Version: 03November2026v1-Beta
+! Version: 08November2026v1-Beta
 ! Expires: 5 days
 ! Description: The font situation on many Japanese websites is kind-of absolutely atrocious on Windows (Other OSs are much less affected). They use super-stiff janky fonts resemblant of Windows 95 or Amiga. And even worse, many of the sites also default to the stiff Japanese fonts' atrocious Latin letter types. Here's how to use the sites in a way that is compatible with the 3rd decade of the 21st century.
 ! 🇯🇵: Windows における多くの日本語サイトのフォント状況はまったくもってゾッとします（他のOSでは遥かにマシです）。Windows 95 か Amiga を思わせるギッザギザのクズフォントが使用されており、さらに悪いことにそういったサイトの多くは、欧文書体に至ってもこのゾッとするギザギザ日本語フォントをデフォルトとして採用しているのです。令和の時代に相応しくサイトを利用する方法は次のとおりです。
@@ -40348,7 +40265,7 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 ! Note 3: Starting 10日 April 2024年, South Korean Hangul sites can also become softened in extraordinarily bad cases, e.g. https://www•nintendo•co•kr/news?idx=164
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 
-1000mg.jp,1geki.jp,2nn.jp,4travel.jp,account.nicovideo.jp,altema.jp,amiami.jp,amy.tokyo,ark-pc.co.jp,ascii.jp,athome.co.jp,atpress.ne.jp,auone.jp,automaton-media.com,biccamera.com,blog.esuteru.com,bloomberg.co.jp,books-sanseido.jp,cdjapan.co.jp,cero.gr.jp,ch.nicovideo.jp,cinematoday.jp,coat.co.jp,cookpad.com,dengekionline.com,diamond.jp,direct.sanwa.co.jp,dmkt-sp.jp,dmm.co.jp,dmm.com,doope.jp,doorblog.jp,dto.jp,eagate.573.jp,entabe.jp,entamepost.jp,eonet.jp,epark.jp,eposcard.co.jp,expresscard.jp,expy.jp,familio-folkloro.com,famitsu.com,faq.radiko.jp,fgomatomeplus.com,g123.jp,gamefactory.jp,gamepedia.jp,gameranbu.jp,gamewith.jp,geekjob.jp,getchu.com,gigazine.net,goguynet.jp,granbluefantasy.jp,gta5.jp,h1g.jp,hentai-image.com,hentai-img.com,hosyusokuhou.jp,hotpepper.jp,huffingtonpost.jp,hulu.jp,ib-game.jp,impress.co.jp,innervision.co.jp,insightnow.jp,iphone-mania.jp,itmedia.co.jp,japan-animemusic.com,jgrants-portal.go.jp,jmty.jp,joshinweb.jp,jp.ign.com,jp.nexon.com,jp.wsj.com,k-manga.jp,kabutan.jp,kakaku.com,kamigame.jp,kinokuniya.co.jp,kitimama-matome.net,kojima.net,konoyubitomare.jp,livedoor.com,logroid.blogspot.com,maidonanews.jp,mainichi.jp,mapion.co.jp,matu.cocolog-nifty.com,mechacomic.jp,melonbooks.co.jp,mgjshop.co.jp,mineo.jp,mixi.jp,mora.jp,nazonazo.jp,nec.co.jp,neowing.co.jp,news.infoseek.co.jp,newsweekjapan.jp,nicenature.top,nicoco.net,nijie.info,nikkan.co.jp,nojima.co.jp,ntj.jac.go.jp,nttxstore.jp,ocn.ne.jp,odakyu.jp,omni7.jp,onojibi.jp,originalnews.nico,osawa-inc.co.jp,otakomu.jp,otanew.jp,pex.jp,platinedispositif.net,point.recruit.co.jp,poptapbeat.taiko-ch.net,qa.nicovideo.jp,qoo10.jp,rakuten.co.jp,rank-king.jp,recipe-blog.jp,research-panel.jp,sankei.com,sanwa-d.co.jp,security-next.com,seesaa.jp,seiga.nicovideo.jp,sengokuixa.jp,shogakukan.co.jp,store-tsutaya.tsite.jp,suruga-ya.jp,suumo.jp,takarazuka-an.co.jp,taking-a-stand.jp,tenki.jp,tinami.com,tokubai.co.jp,tokyo-np.co.jp,tsukumo.co.jp,tv-tokyo.co.jp,vector.co.jp,vippers.jp,vita.taiko-ch.net,weathernews.jp,web-ace.jp,webcomics.jp,weblio.jp,westjr.co.jp,wowkorea.jp,wowma.jp,www.gpoint.co.jp,www.homes.co.jp,www.infoseek.co.jp,www.jorudan.co.jp,www.meti.go.jp,www.nikkei.com,www.nintendo.co.kr,www.swiki.jp,yahoo.co.jp,yamanashirei.blog.fc2.com,yodobashi.com,yomiuri.co.jp,yugioh-card.com,~justpass.epark.jp,~mall.epark.jp,bookmeter.com,mottainaihonpo.com,netoff.co.jp,tokyodisneyresort.jp,nijimen.kusuguru.co.jp,applion.jp,mayla.jp,kawade.co.jp,koupenchan-store.jp,asunaro.shop-pro.jp,st-c.co.jp,eikoh-prize.jp,cocreco.kodansha.co.jp,kenko-tokina.co.jp,ganguoroshi.jp,shop.hanshintigers.jp,loft.co.jp,universal-music.co.jp,animate-onlineshop.jp,takaratomymall.jp,shop.adidas.jp,ftnews.jp,rtrp.jp,jalan.net,2ch2.net,japan-baseball.jp,bookoff.co.jp,kotobank.jp,sansokan.jp,p-m-g.tokyo,sendenkaigi.com,toyokeizai.net,sentankyo.jp,cosmeconcier.jp,commerce-design.net,diamond.co.jp,photo-ac.com,ac-illust.com,jmca.jp,maonline.jp,shidaikyo.or.jp,1book.biz,nikkeibp.co.jp,jri.co.jp,10mtv.jp,booth.pm,l2blocker.com,syosetu.org,futtsu.lg.jp,numata.gunma.jp,walica.jp,conan-cafe.jp,gch.jp,syukatsu-kaigi.jp,umitenki.jp,jingu-stadium.com,shiki.jp,dietnavi.com,t-stamina.jp,jma.go.jp,jetro.go.jp,tokyubus.co.jp,kinro.ntv.co.jp,expo70-park.jp,kntv.jp,club-animate.jp,tepco.co.jp,kitakyushu.lg.jp,library.city.kita.tokyo.jp,jfa.jp,odakyubus.co.jp,keio.co.jp,number.bunshun.jp,yachiyo.lg.jp,kijyomatome-ch.com,girlschannel.net,dorcus-brothers.com,appmedia.jp,dddfont.com,tabechoku.com,woman.excite.co.jp,jpn.faq.panasonic.com,chil-chil.net,hia-net.gr.jp,estar.jp,balance-ichinomiya.com,nosv.org,otona-novel.jp,animanch.com,kanno-novel.jp,cosme.net,syurabahazard.com,ita-do.com,otemo-yan.net,vivit-name.com,pon-navi.net,namedic.jp,newsmatomedia.com,jitenon.jp,mimumimu.org,secure.tw4.jp,novelgame.jp,chindami.com,soranoshita.net,eic.or.jp,n-kishou.co.jp,naturum.ne.jp,jafp.or.jp,mext.go.jp,chindami.com,vpass.ne.jp,skima.jp,nwknews.jp,sneakerwars.jp,kanachu.jp,wowgame.jp,9db.jp,www.yuzawaya.co.jp,hiltonjapan.co.jp,rizzan.co.jp,dokkyomed.ac.jp,dokkyo.tv,cosmospc.co.jp,xn--pckua2a7gp15o89zb.com,castel.jp,famicoms.net,yamagata-np.jp,toonippo.co.jp,rurubu.jp,location.sevenbank.co.jp,dpoint.docomo.ne.jp,ms.bridgestone.co.jp,ryokan.or.jp,cyclowired.jp,nta.co.jp,timesclub.jp,livedoor.biz,epson.jp,lexilogos.com,gamersky.com,eizo.co.jp,enkei-museum.com,ja-obako.org,enkei-shop.com,ino-inc.com,ascii2d.net,jiji.com,newsclip.be,nikkan-gendai.com,fukushima-net.com,tabelog.com,hodoan1967.hatenablog.com,kaimonokouen.com,seoulnavi.com,oyakodokusyo.org,jakushisha.net,suztax.com,doukikumiai.com,jsics.org,uehiro-tohoku.net,activityjapan.com,jaesnet.org,jaeis.org,zasshi-ad.com,xn--alg-li9dki71toh.com,shop.yamasoro.com,manga.nicovideo.jp,cinemacafe.net,filmarks.com,nfljapan.com,nfl-32.com,brain-shop.net,celtnofue.com,jackandbetty.net,cinefil.tokyo##:is(body,div,li,a,strong,dd,span):style(font-family:"Segoe UI",Calibri,Verdana,Ubuntu,"Noto Sans CJK JP","Noto Sans CJK","Hiragino Maru Gothic Pro W4","ヒラギノ丸ゴ W4","Hiragino Maru Gothic Pro W3","ヒラギノ丸ゴ W3","Ume Gothic","Ume UI Gothic","Yu Gothic","Yu Gothic UI",Meiryo,メイリオ,"BabelStone Han",Nishiki-teki,FRBTaiwaneseKana,"Malgun Gothic","맑은 고딕",NanumGothic,AppleSDGothicNeo,NanumBarumGothic,sandoll-gothicneo3,sandoll-gothicneo2,sandoll-gothicneo1,NanumSquareRoundB,sans-serif!important)
+1000mg.jp,1geki.jp,2nn.jp,4travel.jp,account.nicovideo.jp,altema.jp,amiami.jp,amy.tokyo,ark-pc.co.jp,ascii.jp,athome.co.jp,atpress.ne.jp,auone.jp,automaton-media.com,biccamera.com,blog.esuteru.com,bloomberg.co.jp,books-sanseido.jp,cdjapan.co.jp,cero.gr.jp,ch.nicovideo.jp,cinematoday.jp,coat.co.jp,cookpad.com,dengekionline.com,diamond.jp,direct.sanwa.co.jp,dmkt-sp.jp,dmm.co.jp,dmm.com,doope.jp,doorblog.jp,dto.jp,eagate.573.jp,entabe.jp,entamepost.jp,eonet.jp,epark.jp,eposcard.co.jp,expresscard.jp,expy.jp,familio-folkloro.com,famitsu.com,faq.radiko.jp,fgomatomeplus.com,g123.jp,gamefactory.jp,gamepedia.jp,gameranbu.jp,gamewith.jp,geekjob.jp,getchu.com,gigazine.net,goguynet.jp,granbluefantasy.jp,gta5.jp,h1g.jp,hentai-image.com,hentai-img.com,hosyusokuhou.jp,hotpepper.jp,huffingtonpost.jp,hulu.jp,ib-game.jp,impress.co.jp,innervision.co.jp,insightnow.jp,iphone-mania.jp,itmedia.co.jp,japan-animemusic.com,jgrants-portal.go.jp,jmty.jp,joshinweb.jp,jp.ign.com,jp.nexon.com,jp.wsj.com,k-manga.jp,kabutan.jp,kakaku.com,kamigame.jp,kinokuniya.co.jp,kitimama-matome.net,kojima.net,konoyubitomare.jp,livedoor.com,logroid.blogspot.com,maidonanews.jp,mainichi.jp,mapion.co.jp,matu.cocolog-nifty.com,mechacomic.jp,melonbooks.co.jp,mgjshop.co.jp,mineo.jp,mixi.jp,mora.jp,nazonazo.jp,nec.co.jp,neowing.co.jp,news.infoseek.co.jp,newsweekjapan.jp,nicenature.top,nicoco.net,nijie.info,nikkan.co.jp,nojima.co.jp,ntj.jac.go.jp,nttxstore.jp,ocn.ne.jp,odakyu.jp,omni7.jp,onojibi.jp,originalnews.nico,osawa-inc.co.jp,otakomu.jp,otanew.jp,pex.jp,platinedispositif.net,point.recruit.co.jp,poptapbeat.taiko-ch.net,qa.nicovideo.jp,qoo10.jp,rakuten.co.jp,rank-king.jp,recipe-blog.jp,research-panel.jp,sankei.com,sanwa-d.co.jp,security-next.com,seesaa.jp,seiga.nicovideo.jp,sengokuixa.jp,shogakukan.co.jp,store-tsutaya.tsite.jp,suruga-ya.jp,suumo.jp,takarazuka-an.co.jp,taking-a-stand.jp,tenki.jp,tinami.com,tokubai.co.jp,tokyo-np.co.jp,tsukumo.co.jp,tv-tokyo.co.jp,vector.co.jp,vippers.jp,vita.taiko-ch.net,weathernews.jp,web-ace.jp,webcomics.jp,weblio.jp,westjr.co.jp,wowkorea.jp,wowma.jp,www.gpoint.co.jp,www.homes.co.jp,www.infoseek.co.jp,www.jorudan.co.jp,www.meti.go.jp,www.nikkei.com,www.nintendo.co.kr,www.swiki.jp,yahoo.co.jp,yamanashirei.blog.fc2.com,yodobashi.com,yomiuri.co.jp,yugioh-card.com,~justpass.epark.jp,~mall.epark.jp,bookmeter.com,mottainaihonpo.com,netoff.co.jp,tokyodisneyresort.jp,nijimen.kusuguru.co.jp,applion.jp,mayla.jp,kawade.co.jp,koupenchan-store.jp,asunaro.shop-pro.jp,st-c.co.jp,eikoh-prize.jp,cocreco.kodansha.co.jp,kenko-tokina.co.jp,ganguoroshi.jp,shop.hanshintigers.jp,loft.co.jp,universal-music.co.jp,animate-onlineshop.jp,takaratomymall.jp,shop.adidas.jp,ftnews.jp,rtrp.jp,jalan.net,2ch2.net,japan-baseball.jp,bookoff.co.jp,kotobank.jp,sansokan.jp,p-m-g.tokyo,sendenkaigi.com,toyokeizai.net,sentankyo.jp,cosmeconcier.jp,commerce-design.net,diamond.co.jp,photo-ac.com,ac-illust.com,jmca.jp,maonline.jp,shidaikyo.or.jp,1book.biz,nikkeibp.co.jp,jri.co.jp,10mtv.jp,booth.pm,l2blocker.com,syosetu.org,futtsu.lg.jp,numata.gunma.jp,walica.jp,conan-cafe.jp,gch.jp,syukatsu-kaigi.jp,umitenki.jp,jingu-stadium.com,shiki.jp,dietnavi.com,t-stamina.jp,jma.go.jp,jetro.go.jp,tokyubus.co.jp,kinro.ntv.co.jp,expo70-park.jp,kntv.jp,club-animate.jp,tepco.co.jp,kitakyushu.lg.jp,library.city.kita.tokyo.jp,jfa.jp,odakyubus.co.jp,keio.co.jp,number.bunshun.jp,yachiyo.lg.jp,kijyomatome-ch.com,girlschannel.net,dorcus-brothers.com,appmedia.jp,dddfont.com,tabechoku.com,woman.excite.co.jp,jpn.faq.panasonic.com,chil-chil.net,hia-net.gr.jp,estar.jp,balance-ichinomiya.com,nosv.org,otona-novel.jp,animanch.com,kanno-novel.jp,cosme.net,syurabahazard.com,ita-do.com,otemo-yan.net,vivit-name.com,pon-navi.net,namedic.jp,newsmatomedia.com,jitenon.jp,mimumimu.org,secure.tw4.jp,novelgame.jp,chindami.com,soranoshita.net,eic.or.jp,n-kishou.co.jp,naturum.ne.jp,jafp.or.jp,mext.go.jp,chindami.com,vpass.ne.jp,skima.jp,nwknews.jp,sneakerwars.jp,kanachu.jp,wowgame.jp,9db.jp,www.yuzawaya.co.jp,hiltonjapan.co.jp,rizzan.co.jp,dokkyomed.ac.jp,dokkyo.tv,cosmospc.co.jp,xn--pckua2a7gp15o89zb.com,castel.jp,famicoms.net,yamagata-np.jp,toonippo.co.jp,rurubu.jp,location.sevenbank.co.jp,dpoint.docomo.ne.jp,ms.bridgestone.co.jp,ryokan.or.jp,cyclowired.jp,nta.co.jp,timesclub.jp,livedoor.biz,epson.jp,lexilogos.com,gamersky.com,eizo.co.jp,enkei-museum.com,ja-obako.org,enkei-shop.com,ino-inc.com,ascii2d.net,jiji.com,newsclip.be,nikkan-gendai.com,fukushima-net.com,tabelog.com,hodoan1967.hatenablog.com,kaimonokouen.com,seoulnavi.com,oyakodokusyo.org,jakushisha.net,suztax.com,doukikumiai.com,jsics.org,uehiro-tohoku.net,activityjapan.com,jaesnet.org,jaeis.org,zasshi-ad.com,xn--alg-li9dki71toh.com,shop.yamasoro.com,manga.nicovideo.jp,cinemacafe.net,filmarks.com,nfljapan.com,nfl-32.com,brain-shop.net,celtnofue.com,jackandbetty.net,cinefil.tokyo,moebar.com,minnanokaigo.com,concafekyokai.com,fukunavi.info,utaten.com,bakusai.com,giftmall.co.jp,allcinema.net,okinawastory.jp,jlogos.com##:is(body,div,li,a,strong,dd,span):style(font-family:"Segoe UI",Calibri,Verdana,Ubuntu,"Noto Sans CJK JP","Noto Sans CJK","Hiragino Maru Gothic Pro W4","ヒラギノ丸ゴ W4","Hiragino Maru Gothic Pro W3","ヒラギノ丸ゴ W3","Ume Gothic","Ume UI Gothic","Yu Gothic","Yu Gothic UI",Meiryo,メイリオ,"BabelStone Han",Nishiki-teki,FRBTaiwaneseKana,"Malgun Gothic","맑은 고딕",NanumGothic,AppleSDGothicNeo,NanumBarumGothic,sandoll-gothicneo3,sandoll-gothicneo2,sandoll-gothicneo1,NanumSquareRoundB,sans-serif!important)
 
 store.playstation.com,1999.co.jp##html[lang=ja] :is(body,div,li,a,strong,dd,span):style(font-family:"Segoe UI",Calibri,Verdana,Ubuntu,"Noto Sans CJK JP","Noto Sans CJK","Hiragino Maru Gothic Pro W4","ヒラギノ丸ゴ W4","Hiragino Maru Gothic Pro W3","ヒラギノ丸ゴ W3","Ume Gothic","Ume UI Gothic","Yu Gothic","Yu Gothic UI",Meiryo,メイリオ,"BabelStone Han",Nishiki-teki,FRBTaiwaneseKana!important)
 
